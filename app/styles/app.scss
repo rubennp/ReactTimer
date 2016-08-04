@@ -1,4 +1,4 @@
 // Customs styles for the app
-p {
-  color: #777;
-}
+
+@import "base/variables";
+@import "components/navigation";
