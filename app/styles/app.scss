@@ -1,6 +1,13 @@
 // Customs styles for the app
 
 @import "base/variables";
+
+// Foundation:
+@import "base/foundation-settings";
+@import "foundation";
+@include foundation-everything;
+
+// Components:
 @import "components/navigation";
 @import "components/clock";
 @import "components/controls";
